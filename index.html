@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ProStruct Engineering</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-white text-gray-800">
+  <!-- Header/Nav Overlay -->
+  <header class="absolute top-0 left-0 w-full z-30 flex items-center justify-between px-12 py-6">
+    <img src="assets/new-logo.svg" alt="ProStruct Engineering Logo" class="h-12 w-auto" />
+    <nav class="relative">
+      <ul class="flex space-x-8 items-center">
+        <li class="group relative">
+          <a href="https://prostructengineering.com/structural-engineers/services/" class="text-white font-semibold hover:underline flex items-center">
+            Residential
+            <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+          </a>
+          <ul class="absolute left-0 mt-2 w-56 bg-white text-gray-900 rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity z-50">
+            <li><a href="https://prostructengineering.com/structural-engineers/services/" class="block px-4 py-2 hover:bg-gray-100">Services</a></li>
+            <li><a href="https://prostructengineering.com/structural-engineers/services/for-new-custom-home/" class="block px-4 py-2 hover:bg-gray-100">New Custom Home</a></li>
+            <li><a href="https://prostructengineering.com/structural-engineers/services/for-home-addition-remodel/" class="block px-4 py-2 hover:bg-gray-100">Home Addition/<br>Remodel</a></li>
+            <li><a href="https://prostructengineering.com/structural-engineers/services/for-adu-or-jadu/" class="block px-4 py-2 hover:bg-gray-100">ADU</a></li>
+            <li><a href="https://prostructengineering.com/structural-engineers/services/for-retaining-wall/" class="block px-4 py-2 hover:bg-gray-100">Retaining Wall</a></li>
+            <li><a href="https://prostructengineering.com/structural-engineers/services/for-load-bearing-wall-removal/" class="block px-4 py-2 hover:bg-gray-100">Load Bearing Wall Removal</a></li>
+            <li><a href="https://prostructengineering.com/structural-engineers/services/for-deck-patio-porch-gazebo/" class="block px-4 py-2 hover:bg-gray-100">Deck, Patio &amp; Porch</a></li>
+            <li><a href="https://prostructengineering.com/structural-engineers/services/seismic-retrofit-and-foundations/" class="block px-4 py-2 hover:bg-gray-100">Foundation Design</a></li>
+            <li><a href="https://prostructengineering.com/structural-engineers/services/for-construction-administration/" class="block px-4 py-2 hover:bg-gray-100">Construction Administration</a></li>
+            <li><a href="https://prostructengineering.com/civil-engineers/" class="block px-4 py-2 hover:bg-gray-100">Civil Engineering</a></li>
+          </ul>
+        </li>
+        <!-- Commercial Dropdown -->
+        <li class="group relative">
+          <a href="https://prostructengineering.com/commercial-services/" class="text-white font-semibold hover:underline flex items-center">
+            Commercial
+            <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+          </a>
+          <ul class="absolute left-0 mt-2 w-64 bg-white text-gray-900 rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity z-50 pointer-events-none">
+            <li><a href="https://prostructengineering.com/structural-engineers/commercial-services/" class="block px-4 py-2 hover:bg-gray-100">Services</a></li>
+            <li><a href="https://prostructengineering.com/commercial-structural-engineers/for-ground-up-construction/" class="block px-4 py-2 hover:bg-gray-100">Ground Up Construction</a></li>
+            <li><a href="https://prostructengineering.com/commercial-structural-engineers/for-tenant-improvement/" class="block px-4 py-2 hover:bg-gray-100">Tenant Improvement</a></li>
+            <li><a href="https://prostructengineering.com/commercial-structural-engineers/for-mixed-use-buildings/" class="block px-4 py-2 hover:bg-gray-100">Mixed-Use Building</a></li>
+            <li><a href="https://prostructengineering.com/commercial-structural-engineers/for-apartment-buildings/" class="block px-4 py-2 hover:bg-gray-100">Apartment/Townhouse Building</a></li>
+            <li><a href="https://prostructengineering.com/commercial-structural-engineers/for-equipment-anchorage/" class="block px-4 py-2 hover:bg-gray-100">Equipment Anchorage</a></li>
+            <li><a href="https://prostructengineering.com/commercial-structural-engineers/warehouse/" class="block px-4 py-2 hover:bg-gray-100">Warehouse</a></li>
+            <li><a href="https://prostructengineering.com/commercial-structural-engineers/for-offices/" class="block px-4 py-2 hover:bg-gray-100">Office</a></li>
+            <li><a href="https://prostructengineering.com/commercial-structural-engineers/for-retails/" class="block px-4 py-2 hover:bg-gray-100">Retail</a></li>
+            <li><a href="https://prostructengineering.com/commercial-structural-engineers/for-data-centers/" class="block px-4 py-2 hover:bg-gray-100">Data Center</a></li>
+          </ul>
+        </li>
+        <!-- About Us Dropdown -->
+        <li class="group relative">
+          <a href="https://prostructengineering.com/about-us/" class="text-white font-semibold hover:underline flex items-center">
+            About Us
+            <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+          </a>
+          <ul class="absolute left-0 mt-2 w-56 bg-white text-gray-900 rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity z-50">
+            <li><a href="https://prostructengineering.com/about-us/" class="block px-4 py-2 hover:bg-gray-100">About Us</a></li>
+            <li><a href="https://prostructengineering.com/privacy-policy/" class="block px-4 py-2 hover:bg-gray-100">Privacy Policy</a></li>
+            <li><a href="https://prostructengineering.com/license/" class="block px-4 py-2 hover:bg-gray-100">License</a></li>
+            <li><a href="https://prostructengineering.com/blog/" class="block px-4 py-2 hover:bg-gray-100">Blog</a></li>
+          </ul>
+        </li>
+        <!-- Why Us Dropdown -->
+        <li class="group relative">
+          <a href="#" class="text-white font-semibold hover:underline flex items-center">
+            Why Us
+            <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+          </a>
+          <ul class="absolute left-0 mt-2 w-48 bg-white text-gray-900 rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity z-50">
+            <li><a href="https://prostructengineering.com/structural-engineers/reviews/" class="block px-4 py-2 hover:bg-gray-100">Reviews</a></li>
+            <li><a href="https://prostructengineering.com/permit-guarantee/" class="block px-4 py-2 hover:bg-gray-100">Permit Guarantee</a></li>
+          </ul>
+        </li>
+        <!-- Contact Button -->
+        <li>
+          <button id="contactModalBtn" type="button" class="bg-green-700 text-white px-5 py-2 rounded font-semibold hover:bg-green-800 transition">
+            CONTACT US &gt;
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative text-white bg-gray-100 h-screen flex items-center">
+    <img src="assets/hero.jpg" alt="Blueprint" class="absolute inset-0 w-full h-full object-cover object-center opacity-90 z-0 brightness-75" />
+    <div class="relative z-10 text-right p-10 max-w-3xl ml-auto mr-32 mt-20 drop-shadow-lg">
+      <h1 class="text-5xl font-bold mb-4 leading-tight">Design and Engineering</h1>
+      <p class="text-lg mb-2">Reliable structural engineering & civil services<br>
+      that's affordable and fast</p>
+    </div>
+    <div class="absolute left-0 bottom-0 z-20 w-full md:w-1/2 max-w-full bg-black bg-opacity-90 flex flex-row items-center px-4 py-2 gap-4 md:px-12 md:py-4 md:gap-8 translate-y-1/2">
+      <div class="flex-shrink-0 md:ml-32">
+        <p class="text-white text-xl md:text-3xl font-semibold leading-tight">
+          Professional<br>
+          Structural & Civil<br>
+          Engineers
+        </p>
+      </div>
+      <div class="flex-1 flex flex-col items-center relative">
+        <img src="assets/triangle.png" alt="Triangle" class="w-40 h-40 md:w-80 md:h-80 object-contain mx-auto" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section class="py-16 px-6 max-w-6xl mx-auto mt-40">
+    <h2 class="text-2xl font-bold mb-10 text-center col-span-full">Benefits of Partnering with ProStruct Engineering</h2>
+    <div class="grid md:grid-cols-2 gap-12 items-start">
+      <!-- Benefits List -->
+      <div>
+        <div class="grid gap-8">
+          <div><strong>Experience and Quality</strong><br>Professionals with 10-35 years of experience</div>
+          <div><strong>Cost Predictability</strong><br>Know all costs in advance with fixed fee services</div>
+          <div><strong>Value Engineering</strong><br>Value engineering solutions by experienced engineers</div>
+          <div><strong>Ability to Take on a Project Anytime</strong><br>Flexible and scalable resources</div>
+          <div><strong>Responsiveness and Quick Turnaround</strong><br>Fast delivery and high customer satisfaction</div>
+          <div><strong>No Surprises</strong><br>Set deliverables matched by feedback</div>
+          <div><strong>Technology</strong><br>We embrace cloud collaboration and BIM system efficiently</div>
+        </div>
+      </div>
+      <!-- Quote Form -->
+      <div>
+        <div class="bg-white p-8 rounded shadow max-w-md mx-auto md:mx-0 relative">
+          <div class="flex justify-between items-start mb-4">
+            <h2 class="text-xl font-semibold">Contact Us: Get Your Free Quote</h2>
+            <img src="assets/badge.png" alt="Permit Guarantee" class="w-16 h-16 object-contain ml-4" />
+          </div>
+          <form class="space-y-4">
+            <input type="text" placeholder="Name" class="w-full border border-gray-300 p-3 rounded" />
+            <input type="email" placeholder="Email" class="w-full border border-gray-300 p-3 rounded" />
+            <input type="text" placeholder="Phone" class="w-full border border-gray-300 p-3 rounded" />
+            <textarea placeholder="Project Details" class="w-full border border-gray-300 p-3 rounded h-24"></textarea>
+            <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="bg-green-900 text-white py-12 px-6 text-center">
+    <h2 class="text-2xl font-bold mb-4">Our Engineering Services</h2>
+    <p class="max-w-3xl mx-auto">ProStruct Engineering's experienced team provides high-quality, cost-effective structural and civil engineering solutions. We support residential and commercial projects, focusing on permitting, renovation, addition, and more.</p>
+  </section>
+
+  <!-- Partnership Process -->
+  <section class="py-16 px-6 max-w-5xl mx-auto">
+    <h2 class="text-2xl font-bold mb-6 text-center">How the Partnership Works</h2>
+    <ol class="space-y-4">
+      <li><strong>1. Consultation</strong> – We talk with you to understand your needs</li>
+      <li><strong>2. Quick Turnaround</strong> – After understanding the project, we give a quick cost estimate</li>
+      <li><strong>3. Responsive Communication</strong> – Fast and efficient updates</li>
+      <li><strong>4. Administration Support</strong> – Dedicated support email and number</li>
+    </ol>
+  </section>
+
+  <!-- Why Us -->
+  <section class="bg-gray-100 py-12 px-6">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-2xl font-bold mb-6 text-center">Architects turn to ProStruct Engineering because:</h2>
+      <div class="space-y-4 text-center">
+        <div>We cater to last-minute structural engineering needs</div>
+        <div>Our account managers know how to handle impatient or tight hold clients</div>
+        <div>We are not constrained by geographic limitations</div>
+        <div>We understand the importance of leadership and project budgets</div>
+        <div>We have expertise in residential and commercial structural engineering</div>
+      </div>
+    </div>
+  </section>
+
+<div id="contactModal" class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60 hidden">
+  <div class="bg-white rounded-lg shadow-lg max-w-md w-full p-8 relative">
+    <button id="closeContactModal" class="absolute top-3 right-3 text-gray-500 hover:text-gray-700 text-2xl font-bold">&times;</button>
+    <h2 class="text-2xl font-bold mb-4 text-center">Contact Us</h2>
+    <form class="space-y-4">
+      <input type="text" placeholder="Name" class="w-full border border-gray-300 p-3 rounded" />
+      <input type="email" placeholder="Email" class="w-full border border-gray-300 p-3 rounded" />
+      <input type="text" placeholder="Phone" class="w-full border border-gray-300 p-3 rounded" />
+      <textarea placeholder="Project Details" class="w-full border border-gray-300 p-3 rounded h-24"></textarea>
+      <button type="submit" class="bg-green-700 text-white px-6 py-2 rounded hover:bg-green-800 w-full">Submit</button>
+    </form>
+  </div>
+</div>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white text-center py-6">
+    <p class="text-sm">© 2025 ProStruct Engineering. All rights reserved.</p>
+    <p class="text-sm">+1 844-750-0773 | info@prostructengineering.com</p>
+  </footer>
+
+  <script>
+    // Show modal
+    document.getElementById('contactModalBtn').onclick = function() {
+      document.getElementById('contactModal').classList.remove('hidden');
+    };
+    // Hide modal
+    document.getElementById('closeContactModal').onclick = function() {
+      document.getElementById('contactModal').classList.add('hidden');
+    };
+    // Optional: Close modal when clicking outside the form
+    document.getElementById('contactModal').onclick = function(e) {
+      if (e.target === this) this.classList.add('hidden');
+    };
+  </script>
+</body>
+
+</html>
